@@ -1,0 +1,62 @@
+body{
+    background: #ffffff;
+    background-image: url('http://cdn26.us1.fansshare.com/photo/backgroundimage/grey-background-for-site-for-website-1432015867.jpg');
+    background-size: cover;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+header{
+    border: solid 1px #000000;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #3bc7c6;
+    font-size:20px;
+    border-right: 1px solid #000;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+footer{
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+.wrapper{
+    border:1px solid #000;
+    padding: 10px;
+    margin: 10px auto;
+}
+.post-content .image-wrapper{
+    text-align: center;
+
+}
+.post-content .image-wrapper img{
+    width: 500px;
+}
+
+.post-content .price{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.post-content .details{
+    background: #3bc7c6;
+    padding: 10px;
+}
+
+header .sliding-part{
+    background: #3bc7c6;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}

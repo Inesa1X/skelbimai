@@ -1,0 +1,18 @@
+{
+    "name": "inesa/catalog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "inesa1x",
+            "email": "inesa009@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "app/code"
+        }
+    },
+    "require": {
+        "psr/log": "^1.1"
+    }
+}
